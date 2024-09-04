@@ -1,0 +1,39 @@
+
+.btn-Sign{
+        margin-top: 20px;
+        background-color: #b968c7e4;
+        width: 308px;
+        height: 40px;
+        height: 35px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 14px;
+}
+.btn-Sign:hover {
+    background-color: #b968c7;
+
+}
+.fromsignup .input {
+    /* display: inline-block; */
+    width: 308px;
+    height: 40px;
+    margin-top: 4px;
+    border: 2px solid #B968C7;
+    border-radius: 16px;
+
+
+}
+
+.fromsignup div label {
+    color: rgba(0, 0, 0, 0.702);
+    font-weight: bolder;
+}
+
+.password-label {
+    margin-top: 20px;
+}
+.span{
+    color:red;
+    font-size:14px
+}
