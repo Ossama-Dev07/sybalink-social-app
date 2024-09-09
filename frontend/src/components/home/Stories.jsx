@@ -1,11 +1,20 @@
 import React, { useState, useEffect } from "react";
-import Userstory from "./Userstory";
 import AddStory from "./AddStory";
 import unknown from "/assets/unknown.png";
-
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "../../style/Stories.css";
+import Story from "./Story";
 
 export default function Stories() {
   const [stories, setStories] = useState([]);
@@ -57,7 +66,14 @@ export default function Stories() {
                   />
                 )}
               </div>
-              <img src={story.contentimg} alt="story" width="100%" />
+              <Dialog>
+                <DialogTrigger asChild>
+                  <Button variant="outline" className="h-full">
+                    <img src={story.contentimg} alt="story" width="100%" className="h-full w-full object-cover"/>
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[425px]"><Story story={story} /></DialogContent>
+              </Dialog>
             </div>
             <div className="username-st">
               <h5>@{story.nickname}</h5>

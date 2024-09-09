@@ -14,14 +14,7 @@
     user-select: none;
     border-radius: .5rem;
 }
-.story::after{
-    position: absolute;
-    content: "";
-    height: 200px;
-    width: 100%;
-    bottom: 0;
-    background:linear-gradient(transparent,transparent,#b968c7);
-}
+
 .story .user{
     position: absolute;
     margin-top: 5px;
@@ -35,11 +28,8 @@
 }
 h5{
     
-    color: white;
-    position: absolute;
-    bottom: 0px;
-    /* right: 10px; */
-    left: 0px;
+    color: black;
+    
     font-weight: bold;
 }
 

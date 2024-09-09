@@ -76,6 +76,7 @@ export default function Comment({ postId, post_userid }) {
       <DialogHeader>
         <DialogTitle>Comments</DialogTitle>
         <DialogDescription>Make your your owen comment.</DialogDescription>
+
       </DialogHeader>
       {isLoading ? (
         <p>Loading comments...</p>

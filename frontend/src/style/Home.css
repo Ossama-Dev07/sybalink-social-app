@@ -20,9 +20,9 @@
    
 
 }
-/* .content-name{
-    margin-left: 35px
-} */
+.content-name{
+    width: 70%;
+}
 .commenticon{
     border:none ;
     background-color: none;
