@@ -15,7 +15,7 @@ import SuggestedUsers from "./components/SuggestedUsers";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider defaultTheme="Light" storageKey="vite-ui-theme">
+    
       <Router>
         <Routes>
           {/* Route without sidebar */}
@@ -42,7 +42,7 @@ ReactDOM.render(
           />
         </Routes>
       </Router>
-    </ThemeProvider>
+
   </React.StrictMode>,
   document.getElementById("root")
 );

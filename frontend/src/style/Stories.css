@@ -7,7 +7,7 @@
 }
 .story{
     height: 150px;
-    width: 85%;
+    width: 100%;
     flex: 1;
     overflow: hidden;
     position: relative;
